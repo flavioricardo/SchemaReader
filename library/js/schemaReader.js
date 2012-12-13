@@ -93,6 +93,6 @@ function getValueFromTag(tag) {
 }
 
 function fixCssErrorPaths() {
-    $(".myModalLabel").css({"background-image": "url(" + chrome.extension.getURL("library/images/icon-19.png") +")"});
-    $("[class\^=\"icon-\"], [class\*=\" icon-\"]").css({"background-image": "url(" + chrome.extension.getURL("library/bootstrap/img/glyphicons-halflings.png") +")"});
+    $(".myModalLabel").css({"background-image": "url(" + chrome.extension.getURL("library/images/icon-19.png") + ")"});
+    $("[class\^=\"icon-\"], [class\*=\" icon-\"]").css({"background-image": "url(" + chrome.extension.getURL("library/bootstrap/img/glyphicons-halflings.png") + ")"});
 }
