@@ -1,0 +1,36 @@
+.clear {
+	clear: both;
+}
+
+.myModalLabel {
+	background: url(../images/icon-19.png) center left no-repeat;
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 24px;
+}
+
+.type {
+	font-weight: bold;
+	margin: 10px 0 0;
+}
+
+.type:first-child {
+	margin: 0px;
+}
+
+.reference {
+	font-size: 12px;
+	margin: 0 0 10px 20px;
+}
+
+.name {
+	display: inline-block;
+	margin: 0 0 5px 20px;
+}
+
+.value {
+	color: #666;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 0 5px 5px;
+}
